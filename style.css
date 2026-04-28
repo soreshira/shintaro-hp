@@ -1,0 +1,668 @@
+/* ===== FONT FACE (自己ホスティング / Shippori Mincho) ===== */
+
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.97.woff2') format('woff2');
+  unicode-range: U+7e, U+b4, U+25c6, U+2661, U+4e92, U+4eee, U+4ffa, U+5144, U+5237, U+5287, U+52b4, U+58c1, U+5bff, U+5c04, U+5c06, U+5e95, U+5f31, U+5f93, U+63c3, U+640d, U+6557, U+6614, U+662f, U+67d3, U+690d, U+6bba, U+6e6f, U+72af, U+732b, U+7518, U+7ae0, U+7ae5, U+7af6, U+822a, U+89e6, U+8a3a, U+8a98, U+8cb8, U+8de1, U+8e8d, U+95d8, U+961c, U+96a3, U+96ea, U+9bae, U+ff20, U+ff22, U+ff29, U+ff2b-ff2c;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.106.woff2') format('woff2');
+  unicode-range: U+30f6, U+50ac, U+5178, U+51e6, U+5224, U+52dd, U+5883, U+5897, U+590f, U+5a5a, U+5bb3, U+5c65, U+5e03, U+5e2b, U+5e30, U+5eb7, U+6271, U+63f4, U+64ae, U+6574, U+672b, U+679a, U+6a29-6a2a, U+6ca2, U+6cc1, U+6d0b, U+713c, U+74b0, U+7981, U+7a0b, U+7bc0, U+7d1a, U+7d61, U+7fd2, U+822c, U+8996, U+89aa, U+8cac, U+8cbb, U+8d77, U+8def, U+9020, U+9152, U+9244, U+9662, U+967a, U+96e3, U+9759, U+ff16;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.111.woff2') format('woff2');
+  unicode-range: U+2b, U+d7, U+300e-300f, U+4e07, U+4e8c, U+512a, U+5149, U+518d, U+5236, U+52b9, U+52d9, U+5468, U+578b, U+57fa, U+5b8c, U+5ba2, U+5c02, U+5de5, U+5f37, U+5f62, U+623b, U+63d0, U+652f, U+672a, U+6848, U+6d41, U+7136, U+7537, U+754c, U+76f4, U+79c1, U+7ba1, U+7d44, U+7d4c, U+7dcf, U+7dda, U+7de8, U+82b1, U+897f, U+8ca9, U+8cfc, U+904e, U+9664, U+982d, U+9858, U+98a8, U+9a13, U+ff13, U+ff5c;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.112.woff2') format('woff2');
+  unicode-range: U+4e16, U+4e3b, U+4ea4, U+4ee4, U+4f4d, U+4f4f, U+4f55, U+4f9b, U+5317, U+5358, U+53c2, U+53e4, U+548c, U+571f, U+59cb, U+5cf6, U+5e38, U+63a2, U+63b2, U+6559, U+662d, U+679c, U+6c7a, U+72b6, U+7523, U+767d, U+770c, U+7a2e, U+7a3f, U+7a7a, U+7b2c, U+7b49, U+7d20, U+7d42, U+8003, U+8272, U+8a08, U+8aac, U+8cb7, U+8eab, U+8ee2, U+9054-9055, U+90fd, U+914d, U+91cd, U+969b, U+97f3, U+984c, U+ff06;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.113.woff2') format('woff2');
+  unicode-range: U+26, U+5f, U+2026, U+203b, U+4e09, U+4eac, U+4ed5, U+4fa1, U+5143, U+5199, U+5207, U+539f, U+53e3, U+53f7, U+5411, U+5473, U+5546, U+55b6, U+5929, U+597d, U+5bb9, U+5c11, U+5c4b, U+5ddd, U+5f97, U+5fc5, U+6295, U+6301, U+6307, U+671b, U+76f8, U+78ba, U+795e, U+7d30, U+7d39, U+7d9a, U+89e3, U+8a00, U+8a73, U+8a8d, U+8a9e, U+8aad, U+8abf, U+8cea, U+8eca, U+8ffd, U+904b, U+9650, U+ff11-ff12;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.114.woff2') format('woff2');
+  unicode-range: U+3e, U+3005, U+4e0d, U+4e88, U+4ecb, U+4ee3, U+4ef6, U+4fdd, U+4fe1, U+500b, U+50cf, U+5186, U+5316, U+53d7, U+540c, U+544a, U+54e1, U+5728, U+58f2, U+5973, U+5b89, U+5c71, U+5e02, U+5e97, U+5f15, U+5fc3, U+5fdc, U+601d, U+611b, U+611f, U+671f, U+6728, U+6765, U+683c, U+6b21, U+6ce8, U+6d3b, U+6d77, U+7530, U+7740, U+7acb, U+7d50, U+826f, U+8f09, U+8fbc, U+9001, U+9053, U+91ce, U+9762, U+98df;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.116.woff2') format('woff2');
+  unicode-range: U+a9, U+3010-3011, U+30e2, U+4e0b, U+4eca, U+4ed6, U+4ed8, U+4f53, U+4f5c, U+4f7f, U+53d6, U+540d, U+54c1, U+5730, U+5916, U+5b50, U+5c0f, U+5f8c, U+624b, U+6570, U+6587, U+6599, U+691c, U+696d, U+6cd5, U+7269, U+7279, U+7406, U+767a-767b, U+77e5, U+7d04, U+7d22, U+8005, U+80fd, U+81ea, U+8868, U+8981, U+89a7, U+901a, U+9023, U+90e8, U+91d1, U+9332, U+958b, U+96c6, U+9ad8, U+ff1a, U+ff1f;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.117.woff2') format('woff2');
+  unicode-range: U+4e, U+a0, U+3000, U+300c-300d, U+4e00, U+4e0a, U+4e2d, U+4e8b, U+4eba, U+4f1a, U+5165, U+5168, U+5185, U+51fa, U+5206, U+5229, U+524d, U+52d5, U+5408, U+554f, U+5831, U+5834, U+5927, U+5b9a, U+5e74, U+5f0f, U+60c5, U+65b0, U+65b9, U+6642, U+6700, U+672c, U+682a, U+6b63, U+6c17, U+7121, U+751f, U+7528, U+753b, U+76ee, U+793e, U+884c, U+898b, U+8a18, U+9593, U+95a2, U+ff01, U+ff08-ff09;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.118.woff2') format('woff2');
+  unicode-range: U+21-22, U+27-2a, U+2c-3b, U+3f, U+41-4d, U+4f-5d, U+61-7b, U+7d, U+ab, U+ae, U+b2-b3, U+b7, U+bb, U+c9, U+cd, U+d6, U+d8, U+dc, U+e0-e5, U+e7-ed, U+ef, U+f1-f4, U+f6, U+f8, U+fa, U+fc-fd, U+103, U+14d, U+1b0, U+300-301, U+1ebf, U+1ec7, U+2013-2014, U+201c-201d, U+2039-203a, U+203c, U+2048-2049, U+2113, U+2122, U+65e5, U+6708, U+70b9;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.119.woff2') format('woff2');
+  unicode-range: U+20, U+2027, U+3001-3002, U+3041-307f, U+3081-308f, U+3091-3093, U+3099-309a, U+309d-309e, U+30a1-30e1, U+30e3-30ed, U+30ef-30f0, U+30f2-30f4, U+30fb-30fe, U+ff0c, U+ff0e;
+}
+
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm4fke5f7ErmwqJDbcxmkgTEWquC8NvBI.97.woff2') format('woff2');
+  unicode-range: U+7e, U+b4, U+25c6, U+2661, U+4e92, U+4eee, U+4ffa, U+5144, U+5237, U+5287, U+52b4, U+58c1, U+5bff, U+5c04, U+5c06, U+5e95, U+5f31, U+5f93, U+63c3, U+640d, U+6557, U+6614, U+662f, U+67d3, U+690d, U+6bba, U+6e6f, U+72af, U+732b, U+7518, U+7ae0, U+7ae5, U+7af6, U+822a, U+89e6, U+8a3a, U+8a98, U+8cb8, U+8de1, U+8e8d, U+95d8, U+961c, U+96a3, U+96ea, U+9bae, U+ff20, U+ff22, U+ff29, U+ff2b-ff2c;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm4fke5f7ErmwqJDbcxmkgTEWquC8NvBI.106.woff2') format('woff2');
+  unicode-range: U+30f6, U+50ac, U+5178, U+51e6, U+5224, U+52dd, U+5883, U+5897, U+590f, U+5a5a, U+5bb3, U+5c65, U+5e03, U+5e2b, U+5e30, U+5eb7, U+6271, U+63f4, U+64ae, U+6574, U+672b, U+679a, U+6a29-6a2a, U+6ca2, U+6cc1, U+6d0b, U+713c, U+74b0, U+7981, U+7a0b, U+7bc0, U+7d1a, U+7d61, U+7fd2, U+822c, U+8996, U+89aa, U+8cac, U+8cbb, U+8d77, U+8def, U+9020, U+9152, U+9244, U+9662, U+967a, U+96e3, U+9759, U+ff16;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm4fke5f7ErmwqJDbcxmkgTEWquC8NvBI.111.woff2') format('woff2');
+  unicode-range: U+2b, U+d7, U+300e-300f, U+4e07, U+4e8c, U+512a, U+5149, U+518d, U+5236, U+52b9, U+52d9, U+5468, U+578b, U+57fa, U+5b8c, U+5ba2, U+5c02, U+5de5, U+5f37, U+5f62, U+623b, U+63d0, U+652f, U+672a, U+6848, U+6d41, U+7136, U+7537, U+754c, U+76f4, U+79c1, U+7ba1, U+7d44, U+7d4c, U+7dcf, U+7dda, U+7de8, U+82b1, U+897f, U+8ca9, U+8cfc, U+904e, U+9664, U+982d, U+9858, U+98a8, U+9a13, U+ff13, U+ff5c;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm4fke5f7ErmwqJDbcxmkgTEWquC8NvBI.112.woff2') format('woff2');
+  unicode-range: U+4e16, U+4e3b, U+4ea4, U+4ee4, U+4f4d, U+4f4f, U+4f55, U+4f9b, U+5317, U+5358, U+53c2, U+53e4, U+548c, U+571f, U+59cb, U+5cf6, U+5e38, U+63a2, U+63b2, U+6559, U+662d, U+679c, U+6c7a, U+72b6, U+7523, U+767d, U+770c, U+7a2e, U+7a3f, U+7a7a, U+7b2c, U+7b49, U+7d20, U+7d42, U+8003, U+8272, U+8a08, U+8aac, U+8cb7, U+8eab, U+8ee2, U+9054-9055, U+90fd, U+914d, U+91cd, U+969b, U+97f3, U+984c, U+ff06;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm4fke5f7ErmwqJDbcxmkgTEWquC8NvBI.113.woff2') format('woff2');
+  unicode-range: U+26, U+5f, U+2026, U+203b, U+4e09, U+4eac, U+4ed5, U+4fa1, U+5143, U+5199, U+5207, U+539f, U+53e3, U+53f7, U+5411, U+5473, U+5546, U+55b6, U+5929, U+597d, U+5bb9, U+5c11, U+5c4b, U+5ddd, U+5f97, U+5fc5, U+6295, U+6301, U+6307, U+671b, U+76f8, U+78ba, U+795e, U+7d30, U+7d39, U+7d9a, U+89e3, U+8a00, U+8a73, U+8a8d, U+8a9e, U+8aad, U+8abf, U+8cea, U+8eca, U+8ffd, U+904b, U+9650, U+ff11-ff12;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm4fke5f7ErmwqJDbcxmkgTEWquC8NvBI.114.woff2') format('woff2');
+  unicode-range: U+3e, U+3005, U+4e0d, U+4e88, U+4ecb, U+4ee3, U+4ef6, U+4fdd, U+4fe1, U+500b, U+50cf, U+5186, U+5316, U+53d7, U+540c, U+544a, U+54e1, U+5728, U+58f2, U+5973, U+5b89, U+5c71, U+5e02, U+5e97, U+5f15, U+5fc3, U+5fdc, U+601d, U+611b, U+611f, U+671f, U+6728, U+6765, U+683c, U+6b21, U+6ce8, U+6d3b, U+6d77, U+7530, U+7740, U+7acb, U+7d50, U+826f, U+8f09, U+8fbc, U+9001, U+9053, U+91ce, U+9762, U+98df;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm4fke5f7ErmwqJDbcxmkgTEWquC8NvBI.116.woff2') format('woff2');
+  unicode-range: U+a9, U+3010-3011, U+30e2, U+4e0b, U+4eca, U+4ed6, U+4ed8, U+4f53, U+4f5c, U+4f7f, U+53d6, U+540d, U+54c1, U+5730, U+5916, U+5b50, U+5c0f, U+5f8c, U+624b, U+6570, U+6587, U+6599, U+691c, U+696d, U+6cd5, U+7269, U+7279, U+7406, U+767a-767b, U+77e5, U+7d04, U+7d22, U+8005, U+80fd, U+81ea, U+8868, U+8981, U+89a7, U+901a, U+9023, U+90e8, U+91d1, U+9332, U+958b, U+96c6, U+9ad8, U+ff1a, U+ff1f;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm4fke5f7ErmwqJDbcxmkgTEWquC8NvBI.117.woff2') format('woff2');
+  unicode-range: U+4e, U+a0, U+3000, U+300c-300d, U+4e00, U+4e0a, U+4e2d, U+4e8b, U+4eba, U+4f1a, U+5165, U+5168, U+5185, U+51fa, U+5206, U+5229, U+524d, U+52d5, U+5408, U+554f, U+5831, U+5834, U+5927, U+5b9a, U+5e74, U+5f0f, U+60c5, U+65b0, U+65b9, U+6642, U+6700, U+672c, U+682a, U+6b63, U+6c17, U+7121, U+751f, U+7528, U+753b, U+76ee, U+793e, U+884c, U+898b, U+8a18, U+9593, U+95a2, U+ff01, U+ff08-ff09;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm4fke5f7ErmwqJDbcxmkgTEWquC8NvBI.118.woff2') format('woff2');
+  unicode-range: U+21-22, U+27-2a, U+2c-3b, U+3f, U+41-4d, U+4f-5d, U+61-7b, U+7d, U+ab, U+ae, U+b2-b3, U+b7, U+bb, U+c9, U+cd, U+d6, U+d8, U+dc, U+e0-e5, U+e7-ed, U+ef, U+f1-f4, U+f6, U+f8, U+fa, U+fc-fd, U+103, U+14d, U+1b0, U+300-301, U+1ebf, U+1ec7, U+2013-2014, U+201c-201d, U+2039-203a, U+203c, U+2048-2049, U+2113, U+2122, U+65e5, U+6708, U+70b9;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/shippori-mincho/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm4fke5f7ErmwqJDbcxmkgTEWquC8NvBI.119.woff2') format('woff2');
+  unicode-range: U+20, U+2027, U+3001-3002, U+3041-307f, U+3081-308f, U+3091-3093, U+3099-309a, U+309d-309e, U+30a1-30e1, U+30e3-30ed, U+30ef-30f0, U+30f2-30f4, U+30fb-30fe, U+ff0c, U+ff0e;
+}
+
+
+/* ===== VARIABLES ===== */
+
+:root {
+  --color-bg:       #FFFFFF;
+  --color-bg-alt:   #FAF7F2;
+  --color-accent:   #C41230;
+  --color-text:     #1A1A1A;
+  --color-text-sub: #666666;
+  --color-border:   #E0D9D0;
+
+  --font-heading: 'Shippori Mincho', '游明朝', 'Yu Mincho', serif;
+  --font-body: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', sans-serif;
+
+  --max-width: 1200px;
+  --section-py: 3.5rem;
+  --section-px: 1.25rem;
+}
+
+
+/* ===== RESET / BASE ===== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.8;
+  -webkit-text-size-adjust: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* ===== CONTAINER ===== */
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding-inline: var(--section-px);
+}
+
+
+/* ===== SECTION (共通) ===== */
+
+.section {
+  padding-block: var(--section-py);
+  background: var(--color-bg);
+}
+
+.section-alt {
+  background: var(--color-bg-alt);
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  margin-bottom: 2rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--color-accent);
+  display: inline-block;
+}
+
+
+/* ===== HEADER ===== */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.header-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding-block: 0.75rem;
+  padding-inline: var(--section-px);
+  width: 100%;
+}
+
+.site-logo {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  color: var(--color-text);
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.site-nav a {
+  font-size: 0.78rem;
+  color: var(--color-text-sub);
+  letter-spacing: 0.06em;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.site-nav a:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+
+/* ===== HERO ===== */
+
+.hero {
+  background-image: url('images/exterior/exterior-1.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42vh;
+  text-align: center;
+  padding: 3rem var(--section-px);
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.hero-content {
+  position: relative;
+  color: #fff;
+}
+
+.hero-title {
+  font-family: var(--font-heading);
+  font-size: 2.6rem;
+  font-weight: 400;
+  letter-spacing: 0.35em;
+  margin-bottom: 0.8rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero-tagline {
+  font-size: 0.88rem;
+  letter-spacing: 0.1em;
+  line-height: 2;
+  opacity: 0.9;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+/* ===== ABOUT ===== */
+
+.about-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 2.1;
+}
+
+.about-photo img {
+  border-radius: 4px;
+}
+
+
+/* ===== MENU ===== */
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.menu-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.menu-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.menu-img-placeholder {
+  width: 100%;
+  height: 200px;
+  background: var(--color-bg-alt);
+  border-bottom: 1px dashed var(--color-border);
+}
+
+.menu-info {
+  padding: 1.25rem;
+}
+
+.menu-name {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.8rem;
+}
+
+.menu-variants {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.menu-variants li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.9rem;
+  padding-block: 0.45rem;
+  border-bottom: 1px dotted var(--color-border);
+}
+
+.menu-variants li:last-child {
+  border-bottom: none;
+}
+
+.variant-label {
+  color: var(--color-text-sub);
+}
+
+.variant-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+}
+
+.variant-price small {
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--color-text-sub);
+  margin-left: 0.15em;
+}
+
+
+/* ===== SCHEDULE ===== */
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 0.9rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.schedule-table th {
+  width: 8em;
+  font-weight: 500;
+  color: var(--color-text-sub);
+  white-space: nowrap;
+}
+
+.calendar-embed {
+  margin-top: 2rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+
+/* ===== ACCESS ===== */
+
+.map-embed {
+  margin-bottom: 1.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.access-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.65rem 1.5rem;
+  font-size: 0.95rem;
+}
+
+.access-list dt {
+  font-weight: 500;
+  color: var(--color-text-sub);
+  white-space: nowrap;
+  padding-top: 0.1em;
+}
+
+.access-list dd {
+  line-height: 1.8;
+}
+
+
+/* ===== FOOTER ===== */
+
+.site-footer {
+  background: var(--color-text);
+  color: #fff;
+  text-align: center;
+  padding: 2.5rem var(--section-px);
+}
+
+.footer-logo {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  margin-bottom: 0.5rem;
+}
+
+.footer-nav {
+  margin-bottom: 0.75rem;
+}
+
+.footer-nav a {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding-bottom: 1px;
+  transition: color 0.2s;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+}
+
+.footer-copy {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: 0.05em;
+}
+
+
+/* ===== PRIVACY POLICY ===== */
+
+.policy-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 720px;
+}
+
+.policy-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.policy-heading {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: var(--color-text);
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.policy-body p {
+  font-size: 0.95rem;
+  line-height: 1.9;
+  color: var(--color-text);
+}
+
+.policy-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.95rem;
+  line-height: 1.9;
+}
+
+.policy-link-wrap a {
+  color: var(--color-accent);
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+  font-size: 0.9rem;
+}
+
+.policy-date {
+  font-size: 0.85rem;
+  color: var(--color-text-sub);
+  margin-top: 1rem;
+}
+
+
+/* ===== RESPONSIVE — TABLET (600px+) ===== */
+
+@media (min-width: 600px) {
+  :root {
+    --section-px: 2rem;
+    --section-py: 4.5rem;
+  }
+
+  .header-inner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .site-nav a {
+    font-size: 0.85rem;
+  }
+
+  .hero {
+    min-height: 50vh;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-body {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+
+  .about-text {
+    flex: 1;
+  }
+
+  .about-photo {
+    flex: 1;
+  }
+}
+
+
+/* ===== RESPONSIVE — PC (1024px+) ===== */
+
+@media (min-width: 1024px) {
+  :root {
+    --section-px: 2.5rem;
+    --section-py: 5.5rem;
+  }
+
+  .hero {
+    min-height: 80vh;
+  }
+
+  .hero-title {
+    font-size: 4.5rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

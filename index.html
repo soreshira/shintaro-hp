@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; style-src 'self'; font-src 'self'; frame-src https://maps.google.com https://www.google.com https://calendar.google.com; img-src 'self';">
+  <title>しんたろう | いか焼き・大判焼き</title>
+  <link rel="preload" href="fonts/shippori-mincho/VdGGAZweH5EbgHY6YExcZfDoj0BA3peS7qtgjp7PoXk4LwzLxlAlXE-_3UM.119.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="site-logo">しんたろう</a>
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <a href="#about">お店について</a>
+        <a href="#menu">メニュー</a>
+        <a href="#schedule">営業時間</a>
+        <a href="#access">アクセス</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <!--
+    [店舗外観写真を設定する場合]
+    1. 写真を images/exterior/exterior-1.jpg に保存する
+    2. style.css の「HERO」セクションのコメントを参照して background-image を設定する
+  -->
+  <section class="hero" aria-label="メインビジュアル">
+    <div class="hero-content">
+      <h1 class="hero-title">しんたろう</h1>
+      <p class="hero-tagline">守口の昔ながらの味<br>焼き立てのいか焼き・大判焼き</p>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">お店について</h2>
+      <div class="about-body">
+        <p class="about-text">昔ながらのお店で、焼き立てのいか焼きと大判焼きをご提供しています。</p>
+        <!--
+          [店舗写真]
+          images/exterior/ に写真を格納後、以下のコメントを解除してください
+        -->
+        <!--
+        <div class="about-photo">
+          <img src="images/exterior/exterior-1.jpg" alt="しんたろう 店舗外観" width="600" height="400">
+        </div>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section id="menu" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">メニュー</h2>
+      <div class="menu-grid">
+
+        <!-- いか焼き -->
+        <article class="menu-card">
+          <!--
+            [いか焼き写真]
+            images/products/ikayaki.jpg を保存後、以下を解除し
+            .menu-img-placeholder の行を削除してください
+          -->
+          <!-- <img class="menu-img" src="images/products/ikayaki.jpg" alt="いか焼き" width="400" height="300"> -->
+          <div class="menu-img-placeholder" aria-hidden="true"></div>
+          <div class="menu-info">
+            <h3 class="menu-name">いか焼き</h3>
+            <ul class="menu-variants">
+              <li>
+                <span class="variant-label">玉子入り</span>
+                <span class="variant-price">220<small>円</small></span>
+              </li>
+              <li>
+                <span class="variant-label">玉子なし</span>
+                <span class="variant-price">150<small>円</small></span>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- 大判焼き -->
+        <article class="menu-card">
+          <!--
+            [大判焼き写真]
+            images/products/obanyaki.jpg を保存後、以下を解除し
+            .menu-img-placeholder の行を削除してください
+          -->
+          <!-- <img class="menu-img" src="images/products/obanyaki.jpg" alt="大判焼き" width="400" height="300"> -->
+          <div class="menu-img-placeholder" aria-hidden="true"></div>
+          <div class="menu-info">
+            <h3 class="menu-name">大判焼き</h3>
+            <ul class="menu-variants">
+              <li>
+                <span class="variant-price">110<small>円</small></span>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ソフトクリーム -->
+        <article class="menu-card">
+          <!--
+            [ソフトクリーム写真]
+            images/products/softcream.jpg を保存後、以下を解除し
+            .menu-img-placeholder の行を削除してください
+          -->
+          <!-- <img class="menu-img" src="images/products/softcream.jpg" alt="ソフトクリーム" width="400" height="300"> -->
+          <div class="menu-img-placeholder" aria-hidden="true"></div>
+          <div class="menu-info">
+            <h3 class="menu-name">ソフトクリーム</h3>
+            <ul class="menu-variants">
+              <li>
+                <span class="variant-price">250<small>円</small></span>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!--
+          [夏季メニュー追加箇所]
+          夏季限定メニューを追加する場合は、以下のブロックをコピーして追記してください
+        -->
+        <!--
+        <article class="menu-card">
+          <div class="menu-img-placeholder" aria-hidden="true"></div>
+          <div class="menu-info">
+            <h3 class="menu-name">商品名</h3>
+            <ul class="menu-variants">
+              <li>
+                <span class="variant-price">●●<small>円</small></span>
+              </li>
+            </ul>
+          </div>
+        </article>
+        -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SCHEDULE ===== -->
+  <section id="schedule" class="section">
+    <div class="container">
+      <h2 class="section-title">営業時間・営業日</h2>
+      <table class="schedule-table">
+        <tbody>
+          <tr>
+            <th scope="row">営業時間</th>
+            <td>11:00〜19:00</td>
+          </tr>
+          <tr>
+            <th scope="row">定休日</th>
+            <td>火曜日</td>
+          </tr>
+          <tr>
+            <th scope="row">不定休</th>
+            <td>下記カレンダーをご確認ください</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--
+        [Googleカレンダー]
+        カレンダー設定後、以下のコメントを解除してください
+        src の URL を Google カレンダーの「埋め込みコード」で取得した URL に置き換えてください
+      -->
+      <!--
+      <div class="calendar-embed">
+        <iframe
+          src="ここにGoogleカレンダーの埋め込みURLを入力"
+          sandbox="allow-scripts allow-same-origin allow-popups"
+          loading="lazy"
+          width="100%"
+          height="400"
+          frameborder="0"
+          scrolling="no"
+          title="営業カレンダー">
+        </iframe>
+      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- ===== ACCESS ===== -->
+  <section id="access" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">アクセス</h2>
+
+      <div class="map-embed">
+        <iframe
+          src="https://maps.google.com/maps?q=しんたろう+守口市&output=embed&hl=ja&z=18"
+          sandbox="allow-scripts allow-same-origin"
+          loading="lazy"
+          width="100%"
+          height="350"
+          frameborder="0"
+          allowfullscreen
+          title="店舗地図">
+        </iframe>
+      </div>
+
+      <dl class="access-list">
+        <dt>住所</dt>
+        <dd>〒570-0065<br>大阪府守口市滝井元町3-8-5</dd>
+        <dt>最寄り駅</dt>
+        <dd>京阪本線 滝井駅・千林駅</dd>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <p class="footer-logo">しんたろう</p>
+    <nav class="footer-nav">
+      <a href="privacy-policy.html">プライバシーポリシー</a>
+    </nav>
+    <p class="footer-copy">&copy; しんたろう All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
